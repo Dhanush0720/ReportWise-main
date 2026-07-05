@@ -60,3 +60,6 @@ temp/
 
 # Backend uploads
 backend/uploads/
+
+# Unignore frontend src/lib directory
+!frontend/src/lib/
