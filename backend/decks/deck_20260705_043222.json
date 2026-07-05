@@ -1,0 +1,425 @@
+{
+  "deck_id": "deck_20260705_043222",
+  "title": "Analysis Report - Monthly sales analysis",
+  "created": "2026-07-05T04:32:22.861485",
+  "total_slides": 10,
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Executive Summary",
+      "type": "executive_summary",
+      "content": {
+        "query": "Monthly sales analysis",
+        "key_findings": [
+          "Dataset contains 15 records with 7 dimensions",
+          "Analyzed 5 numeric metrics",
+          "Time period covers 15 data points",
+          "Multiple dimensions for comprehensive analysis"
+        ],
+        "kpis": [
+          {
+            "metric": "q1_sales",
+            "value": 753000.0,
+            "average": 50200.0,
+            "max": 92000.0,
+            "min": 12000.0
+          },
+          {
+            "metric": "q2_sales",
+            "value": 794000.0,
+            "average": 52933.333333333336,
+            "max": 96000.0,
+            "min": 15000.0
+          },
+          {
+            "metric": "q3_sales",
+            "value": 820000.0,
+            "average": 54666.666666666664,
+            "max": 101000.0,
+            "min": 18000.0
+          },
+          {
+            "metric": "q4_sales",
+            "value": 854000.0,
+            "average": 56933.333333333336,
+            "max": 108000.0,
+            "min": 22000.0
+          }
+        ],
+        "chart_type": "metric_cards"
+      }
+    },
+    {
+      "slide_number": 2,
+      "title": "Data Overview & Quality",
+      "type": "data_overview",
+      "content": {
+        "total_records": 15,
+        "total_columns": 7,
+        "numeric_metrics": 5,
+        "categorical_metrics": 2,
+        "data_quality": {
+          "completeness": 100.0,
+          "duplicate_rows": 0,
+          "missing_values": 0
+        },
+        "column_summary": {
+          "numeric": [
+            "q1_sales",
+            "q2_sales",
+            "q3_sales",
+            "q4_sales",
+            "units_sold"
+          ],
+          "categorical": [
+            "product",
+            "region"
+          ]
+        },
+        "quality_metrics": [
+          "\u2713 100.0% data completeness",
+          "\u2713 15 records analyzed",
+          "\u2713 7 dimensions covered",
+          "\u2713 0 critical issues detected"
+        ],
+        "chart_type": "stats_grid"
+      }
+    },
+    {
+      "slide_number": 3,
+      "title": "Top 5 Performers",
+      "type": "top_performers",
+      "content": {
+        "metric": "q1_sales",
+        "top_performers": [
+          {
+            "rank": 1,
+            "name": "ProductK",
+            "value": 92000.0,
+            "percentage": 23.115577889447238
+          },
+          {
+            "rank": 2,
+            "name": "ProductF",
+            "value": 88000.0,
+            "percentage": 22.110552763819097
+          },
+          {
+            "rank": 3,
+            "name": "ProductC",
+            "value": 78000.0,
+            "percentage": 19.597989949748744
+          },
+          {
+            "rank": 4,
+            "name": "ProductN",
+            "value": 73000.0,
+            "percentage": 18.341708542713565
+          },
+          {
+            "rank": 5,
+            "name": "ProductI",
+            "value": 67000.0,
+            "percentage": 16.834170854271356
+          }
+        ],
+        "insights": [
+          "Top performer: 92000 (23.1% of total)",
+          "Top 5 combined: 398000 (52.9% of total)",
+          "Average top performer: 79600",
+          "Top performers show strong consistency"
+        ],
+        "chart_type": "bar_chart"
+      }
+    },
+    {
+      "slide_number": 4,
+      "title": "Bottom 5 Performers",
+      "type": "bottom_performers",
+      "content": {
+        "metric": "q1_sales",
+        "bottom_performers": [
+          {
+            "rank": 1,
+            "name": "ProductD",
+            "value": 12000.0,
+            "percentage": 10.0
+          },
+          {
+            "rank": 2,
+            "name": "ProductL",
+            "value": 19000.0,
+            "percentage": 15.833333333333332
+          },
+          {
+            "rank": 3,
+            "name": "ProductG",
+            "value": 23000.0,
+            "percentage": 19.166666666666668
+          },
+          {
+            "rank": 4,
+            "name": "ProductB",
+            "value": 32000.0,
+            "percentage": 26.666666666666668
+          },
+          {
+            "rank": 5,
+            "name": "ProductJ",
+            "value": 34000.0,
+            "percentage": 28.333333333333332
+          }
+        ],
+        "insights": [
+          "Lowest performer: 12000",
+          "Performance gap: 80000",
+          "Improvement opportunity: 26200 per item",
+          "Focus areas for optimization identified"
+        ],
+        "chart_type": "bar_chart"
+      }
+    },
+    {
+      "slide_number": 5,
+      "title": "Trend Analysis",
+      "type": "trend_analysis",
+      "content": {
+        "metric": "q1_sales",
+        "trend_direction": "\ud83d\udcc9 Decreasing",
+        "trend_percentage": -15.555555555555555,
+        "start_value": 45000.0,
+        "end_value": 38000.0,
+        "average_value": 50200.0,
+        "volatility": 24268.49809938802,
+        "insights": [
+          "Overall trend: \ud83d\udcc9 Decreasing by 15.6%",
+          "Average: 50200",
+          "Volatility (Std Dev): 24268.50",
+          "Trend suggests attention needed"
+        ],
+        "chart_type": "line_chart",
+        "data_points": [
+          45000.0,
+          32000.0,
+          78000.0,
+          12000.0,
+          56000.0,
+          88000.0,
+          23000.0,
+          41000.0,
+          67000.0,
+          34000.0,
+          92000.0,
+          19000.0,
+          55000.0,
+          73000.0,
+          38000.0
+        ]
+      }
+    },
+    {
+      "slide_number": 6,
+      "title": "Statistical Analysis",
+      "type": "statistical_analysis",
+      "content": {
+        "metric": "q1_sales",
+        "statistics": {
+          "count": 15,
+          "mean": 50200.0,
+          "median": 45000.0,
+          "std_dev": 25120.282073029583,
+          "min": 12000.0,
+          "q1": 33000.0,
+          "q3": 70000.0,
+          "max": 92000.0,
+          "skewness": 0.24008493111719795,
+          "kurtosis": -1.0436925787842308
+        },
+        "insights": [
+          "Mean: 50200 | Median: 45000",
+          "Range: 12000 - 92000",
+          "Std Dev: 25120.28 (variability measure)",
+          "Distribution: Symmetric"
+        ],
+        "chart_type": "distribution_chart"
+      }
+    },
+    {
+      "slide_number": 7,
+      "title": "Distribution Analysis",
+      "type": "distribution_analysis",
+      "content": {
+        "metric": "q1_sales",
+        "distribution": [
+          {
+            "bin": "12000-20000",
+            "count": 2,
+            "percentage": 13.333333333333334
+          },
+          {
+            "bin": "20000-28000",
+            "count": 1,
+            "percentage": 6.666666666666667
+          },
+          {
+            "bin": "28000-36000",
+            "count": 2,
+            "percentage": 13.333333333333334
+          },
+          {
+            "bin": "36000-44000",
+            "count": 2,
+            "percentage": 13.333333333333334
+          },
+          {
+            "bin": "44000-52000",
+            "count": 1,
+            "percentage": 6.666666666666667
+          },
+          {
+            "bin": "52000-60000",
+            "count": 2,
+            "percentage": 13.333333333333334
+          },
+          {
+            "bin": "60000-68000",
+            "count": 1,
+            "percentage": 6.666666666666667
+          },
+          {
+            "bin": "68000-76000",
+            "count": 1,
+            "percentage": 6.666666666666667
+          },
+          {
+            "bin": "76000-84000",
+            "count": 1,
+            "percentage": 6.666666666666667
+          },
+          {
+            "bin": "84000-92000",
+            "count": 2,
+            "percentage": 13.333333333333334
+          }
+        ],
+        "concentration": {
+          "top_20pct_value": 74000.0,
+          "top_20pct_contribution": 34.26294820717131
+        },
+        "insights": [
+          "Most common range: 12000-20000",
+          "Top 20% values contribute 34.3% of total",
+          "Distribution spread: 80000",
+          "Indicates concentration patterns"
+        ],
+        "chart_type": "histogram"
+      }
+    },
+    {
+      "slide_number": 8,
+      "title": "Correlation Analysis",
+      "type": "correlation_analysis",
+      "content": {
+        "primary_metric": "q1_sales",
+        "correlations": [
+          {
+            "metric": "q2_sales",
+            "correlation": 0.9950136282009828,
+            "strength": "Strong"
+          },
+          {
+            "metric": "units_sold",
+            "correlation": 0.9808108129614235,
+            "strength": "Strong"
+          },
+          {
+            "metric": "q3_sales",
+            "correlation": 0.9708689779862143,
+            "strength": "Strong"
+          },
+          {
+            "metric": "q4_sales",
+            "correlation": 0.9059238060635378,
+            "strength": "Strong"
+          }
+        ],
+        "insights": [
+          "Strongest correlation: q2_sales (1.00)",
+          "Found 4 strong relationships",
+          "Identifies metric dependencies and relationships",
+          "Useful for predictive analysis"
+        ],
+        "chart_type": "correlation_heatmap"
+      }
+    },
+    {
+      "slide_number": 9,
+      "title": "Patterns & Seasonality",
+      "type": "patterns_seasonality",
+      "content": {
+        "metric": "q1_sales",
+        "patterns_detected": [
+          "Cyclical pattern detected",
+          "Growth trend identified",
+          "Seasonal variations present"
+        ],
+        "periodicity": "Monthly cycle detected",
+        "insights": [
+          "Cyclical patterns affect planning",
+          "Seasonal trends improve forecasting",
+          "Consider timing in strategy",
+          "Data shows repeating patterns"
+        ],
+        "chart_type": "line_chart"
+      }
+    },
+    {
+      "slide_number": 10,
+      "title": "Recommendations & Next Steps",
+      "type": "recommendations",
+      "content": {
+        "recommendations": [
+          "\ud83d\udcca Focus on top 20% performers for optimization",
+          "\ud83c\udfaf Develop action plan for bottom performers",
+          "\ud83d\udcc8 Leverage identified trends in strategy",
+          "\ud83d\udd0d Deep dive into high-correlation metrics",
+          "\u23f0 Account for seasonal patterns in planning",
+          "\ud83d\udca1 Monitor key metrics monthly"
+        ],
+        "priorities": [
+          {
+            "priority": "High",
+            "action": "Optimize top performers",
+            "impact": "Direct revenue improvement",
+            "timeline": "1-2 weeks"
+          },
+          {
+            "priority": "High",
+            "action": "Address underperformers",
+            "impact": "Unlock growth potential",
+            "timeline": "2-4 weeks"
+          },
+          {
+            "priority": "Medium",
+            "action": "Implement seasonal adjustments",
+            "impact": "Better forecasting",
+            "timeline": "1 month"
+          }
+        ],
+        "next_steps": [
+          "Schedule stakeholder review of findings",
+          "Prioritize action items",
+          "Assign ownership and accountability",
+          "Set up tracking and monitoring"
+        ],
+        "chart_type": "action_items"
+      }
+    }
+  ],
+  "metadata": {
+    "rows": 15,
+    "columns": 7,
+    "numeric_columns": 5,
+    "categorical_columns": 2
+  }
+}

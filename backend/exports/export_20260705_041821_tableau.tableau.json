@@ -1,0 +1,25 @@
+{
+  "export_format": "csv_for_tableau",
+  "row_count": 15,
+  "column_count": 7,
+  "columns": [
+    "product",
+    "q1_sales",
+    "q2_sales",
+    "q3_sales",
+    "q4_sales",
+    "region",
+    "units_sold"
+  ],
+  "data_types": {
+    "product": "str",
+    "q1_sales": "int64",
+    "q2_sales": "int64",
+    "q3_sales": "int64",
+    "q4_sales": "int64",
+    "region": "str",
+    "units_sold": "int64"
+  },
+  "suggested_tableau_sheet": "Sheet1",
+  "instructions": "Import this CSV into Tableau as a new data source"
+}

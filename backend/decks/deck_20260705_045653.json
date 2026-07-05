@@ -1,0 +1,438 @@
+{
+  "deck_id": "deck_20260705_045653",
+  "title": "Analysis Report - MALE , Software engineer details\n",
+  "created": "2026-07-05T04:56:53.648126",
+  "total_slides": 10,
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Executive Summary",
+      "type": "executive_summary",
+      "content": {
+        "query": "MALE , Software engineer details\n",
+        "key_findings": [
+          "Dataset contains 2000 records with 17 dimensions",
+          "Analyzed 10 numeric metrics",
+          "Time period covers 2000 data points",
+          "Multiple dimensions for comprehensive analysis"
+        ],
+        "kpis": [
+          {
+            "metric": "id",
+            "value": 2001000.0,
+            "average": 1000.5,
+            "max": 2000.0,
+            "min": 1.0
+          },
+          {
+            "metric": "absence_days",
+            "value": 7331.0,
+            "average": 3.6655,
+            "max": 10.0,
+            "min": 0.0
+          },
+          {
+            "metric": "weekly_self_study_hours",
+            "value": 35511.0,
+            "average": 17.7555,
+            "max": 50.0,
+            "min": 0.0
+          },
+          {
+            "metric": "math_score",
+            "value": 166904.0,
+            "average": 83.452,
+            "max": 100.0,
+            "min": 40.0
+          }
+        ],
+        "chart_type": "metric_cards"
+      }
+    },
+    {
+      "slide_number": 2,
+      "title": "Data Overview & Quality",
+      "type": "data_overview",
+      "content": {
+        "total_records": 2000,
+        "total_columns": 17,
+        "numeric_metrics": 10,
+        "categorical_metrics": 5,
+        "data_quality": {
+          "completeness": 100.0,
+          "duplicate_rows": 0,
+          "missing_values": 0
+        },
+        "column_summary": {
+          "numeric": [
+            "id",
+            "absence_days",
+            "weekly_self_study_hours",
+            "math_score",
+            "history_score"
+          ],
+          "categorical": [
+            "first_name",
+            "last_name",
+            "email",
+            "gender",
+            "career_aspiration"
+          ]
+        },
+        "quality_metrics": [
+          "\u2713 100.0% data completeness",
+          "\u2713 2000 records analyzed",
+          "\u2713 17 dimensions covered",
+          "\u2713 0 critical issues detected"
+        ],
+        "chart_type": "stats_grid"
+      }
+    },
+    {
+      "slide_number": 3,
+      "title": "Top 5 Performers",
+      "type": "top_performers",
+      "content": {
+        "metric": "id",
+        "top_performers": [
+          {
+            "rank": 1,
+            "name": "Item 1",
+            "value": 2000.0,
+            "percentage": 20.02002002002002
+          },
+          {
+            "rank": 2,
+            "name": "Item 2",
+            "value": 1999.0,
+            "percentage": 20.01001001001001
+          },
+          {
+            "rank": 3,
+            "name": "Item 3",
+            "value": 1998.0,
+            "percentage": 20.0
+          },
+          {
+            "rank": 4,
+            "name": "Item 4",
+            "value": 1997.0,
+            "percentage": 19.98998998998999
+          },
+          {
+            "rank": 5,
+            "name": "Item 5",
+            "value": 1996.0,
+            "percentage": 19.97997997997998
+          }
+        ],
+        "insights": [
+          "Top performer: 2000 (20.0% of total)",
+          "Top 5 combined: 9990 (0.5% of total)",
+          "Average top performer: 1998",
+          "Top performers show strong consistency"
+        ],
+        "chart_type": "bar_chart"
+      }
+    },
+    {
+      "slide_number": 4,
+      "title": "Bottom 5 Performers",
+      "type": "bottom_performers",
+      "content": {
+        "metric": "id",
+        "bottom_performers": [
+          {
+            "rank": 1,
+            "name": "Item 1",
+            "value": 1.0,
+            "percentage": 6.666666666666667
+          },
+          {
+            "rank": 2,
+            "name": "Item 2",
+            "value": 2.0,
+            "percentage": 13.333333333333334
+          },
+          {
+            "rank": 3,
+            "name": "Item 3",
+            "value": 3.0,
+            "percentage": 20.0
+          },
+          {
+            "rank": 4,
+            "name": "Item 4",
+            "value": 4.0,
+            "percentage": 26.666666666666668
+          },
+          {
+            "rank": 5,
+            "name": "Item 5",
+            "value": 5.0,
+            "percentage": 33.33333333333333
+          }
+        ],
+        "insights": [
+          "Lowest performer: 1",
+          "Performance gap: 1999",
+          "Improvement opportunity: 998 per item",
+          "Focus areas for optimization identified"
+        ],
+        "chart_type": "bar_chart"
+      }
+    },
+    {
+      "slide_number": 5,
+      "title": "Trend Analysis",
+      "type": "trend_analysis",
+      "content": {
+        "metric": "id",
+        "trend_direction": "\ud83d\udcc8 Increasing",
+        "trend_percentage": 199900.0,
+        "start_value": 1.0,
+        "end_value": 2000.0,
+        "average_value": 1000.5,
+        "volatility": 577.3501970208376,
+        "insights": [
+          "Overall trend: \ud83d\udcc8 Increasing by 199900.0%",
+          "Average: 1000",
+          "Volatility (Std Dev): 577.35",
+          "Trend suggests growth opportunity"
+        ],
+        "chart_type": "line_chart",
+        "data_points": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          12.0,
+          13.0,
+          14.0,
+          15.0,
+          16.0,
+          17.0,
+          18.0,
+          19.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "slide_number": 6,
+      "title": "Statistical Analysis",
+      "type": "statistical_analysis",
+      "content": {
+        "metric": "id",
+        "statistics": {
+          "count": 2000,
+          "mean": 1000.5,
+          "median": 1000.5,
+          "std_dev": 577.4945887192364,
+          "min": 1.0,
+          "q1": 500.75,
+          "q3": 1500.25,
+          "max": 2000.0,
+          "skewness": 0.0,
+          "kurtosis": -1.1999999999999997
+        },
+        "insights": [
+          "Mean: 1000 | Median: 1000",
+          "Range: 1 - 2000",
+          "Std Dev: 577.49 (variability measure)",
+          "Distribution: Symmetric"
+        ],
+        "chart_type": "distribution_chart"
+      }
+    },
+    {
+      "slide_number": 7,
+      "title": "Distribution Analysis",
+      "type": "distribution_analysis",
+      "content": {
+        "metric": "id",
+        "distribution": [
+          {
+            "bin": "1-201",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "201-401",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "401-601",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "601-801",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "801-1000",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "1000-1200",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "1200-1400",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "1400-1600",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "1600-1800",
+            "count": 200,
+            "percentage": 10.0
+          },
+          {
+            "bin": "1800-2000",
+            "count": 200,
+            "percentage": 10.0
+          }
+        ],
+        "concentration": {
+          "top_20pct_value": 1600.2,
+          "top_20pct_contribution": 35.992003998000996
+        },
+        "insights": [
+          "Most common range: 1-201",
+          "Top 20% values contribute 36.0% of total",
+          "Distribution spread: 1999",
+          "Indicates concentration patterns"
+        ],
+        "chart_type": "histogram"
+      }
+    },
+    {
+      "slide_number": 8,
+      "title": "Correlation Analysis",
+      "type": "correlation_analysis",
+      "content": {
+        "primary_metric": "id",
+        "correlations": [
+          {
+            "metric": "biology_score",
+            "correlation": 0.045436646590344396,
+            "strength": "Weak"
+          },
+          {
+            "metric": "history_score",
+            "correlation": 0.021959252340870723,
+            "strength": "Weak"
+          },
+          {
+            "metric": "absence_days",
+            "correlation": -0.017787760597466586,
+            "strength": "Weak"
+          },
+          {
+            "metric": "math_score",
+            "correlation": -0.014041998612326755,
+            "strength": "Weak"
+          },
+          {
+            "metric": "weekly_self_study_hours",
+            "correlation": 0.008524265080826635,
+            "strength": "Weak"
+          }
+        ],
+        "insights": [
+          "Strongest correlation: biology_score (0.05)",
+          "Found 0 strong relationships",
+          "Identifies metric dependencies and relationships",
+          "Useful for predictive analysis"
+        ],
+        "chart_type": "correlation_heatmap"
+      }
+    },
+    {
+      "slide_number": 9,
+      "title": "Patterns & Seasonality",
+      "type": "patterns_seasonality",
+      "content": {
+        "metric": "id",
+        "patterns_detected": [
+          "Cyclical pattern detected",
+          "Growth trend identified",
+          "Seasonal variations present"
+        ],
+        "periodicity": "Monthly cycle detected",
+        "insights": [
+          "Cyclical patterns affect planning",
+          "Seasonal trends improve forecasting",
+          "Consider timing in strategy",
+          "Data shows repeating patterns"
+        ],
+        "chart_type": "line_chart"
+      }
+    },
+    {
+      "slide_number": 10,
+      "title": "Recommendations & Next Steps",
+      "type": "recommendations",
+      "content": {
+        "recommendations": [
+          "\ud83d\udcca Focus on top 20% performers for optimization",
+          "\ud83c\udfaf Develop action plan for bottom performers",
+          "\ud83d\udcc8 Leverage identified trends in strategy",
+          "\ud83d\udd0d Deep dive into high-correlation metrics",
+          "\u23f0 Account for seasonal patterns in planning",
+          "\ud83d\udca1 Monitor key metrics monthly"
+        ],
+        "priorities": [
+          {
+            "priority": "High",
+            "action": "Optimize top performers",
+            "impact": "Direct revenue improvement",
+            "timeline": "1-2 weeks"
+          },
+          {
+            "priority": "High",
+            "action": "Address underperformers",
+            "impact": "Unlock growth potential",
+            "timeline": "2-4 weeks"
+          },
+          {
+            "priority": "Medium",
+            "action": "Implement seasonal adjustments",
+            "impact": "Better forecasting",
+            "timeline": "1 month"
+          }
+        ],
+        "next_steps": [
+          "Schedule stakeholder review of findings",
+          "Prioritize action items",
+          "Assign ownership and accountability",
+          "Set up tracking and monitoring"
+        ],
+        "chart_type": "action_items"
+      }
+    }
+  ],
+  "metadata": {
+    "rows": 2000,
+    "columns": 17,
+    "numeric_columns": 10,
+    "categorical_columns": 5
+  }
+}

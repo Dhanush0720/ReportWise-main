@@ -1,0 +1,347 @@
+{
+  "timestamp": "20260705_013851",
+  "query": "Analyze quarterly sales performance",
+  "data_shape": {
+    "rows": 15,
+    "columns": 7
+  },
+  "sections": {
+    "executive_summary": {
+      "title": "Executive Summary",
+      "query": "Analyze quarterly sales performance",
+      "data_shape": "15 records, 7 fields",
+      "date_generated": "2026-07-05T01:38:51.704691",
+      "key_highlights": [
+        "Analyzed 15 data records",
+        "Dataset contains 7 dimensions",
+        "Identified 5 numeric metrics",
+        "Analysis covers 15 time periods or entries"
+      ],
+      "top_metrics": {
+        "q1_sales": {
+          "total": 753000.0,
+          "average": 50200.0,
+          "max": 92000.0,
+          "min": 12000.0
+        },
+        "q2_sales": {
+          "total": 794000.0,
+          "average": 52933.333333333336,
+          "max": 96000.0,
+          "min": 15000.0
+        },
+        "q3_sales": {
+          "total": 820000.0,
+          "average": 54666.666666666664,
+          "max": 101000.0,
+          "min": 18000.0
+        },
+        "q4_sales": {
+          "total": 854000.0,
+          "average": 56933.333333333336,
+          "max": 108000.0,
+          "min": 22000.0
+        },
+        "units_sold": {
+          "total": 20040.0,
+          "average": 1336.0,
+          "max": 2400.0,
+          "min": 450.0
+        }
+      }
+    },
+    "data_overview": {
+      "title": "Data Overview",
+      "total_records": 15,
+      "total_columns": 7,
+      "column_names": [
+        "product",
+        "q1_sales",
+        "q2_sales",
+        "q3_sales",
+        "q4_sales",
+        "region",
+        "units_sold"
+      ],
+      "column_types": {
+        "product": "str",
+        "q1_sales": "int64",
+        "q2_sales": "int64",
+        "q3_sales": "int64",
+        "q4_sales": "int64",
+        "region": "str",
+        "units_sold": "int64"
+      },
+      "missing_values": {
+        "product": 0,
+        "q1_sales": 0,
+        "q2_sales": 0,
+        "q3_sales": 0,
+        "q4_sales": 0,
+        "region": 0,
+        "units_sold": 0
+      },
+      "duplicate_rows": 0,
+      "memory_usage_mb": 0.00110626220703125,
+      "first_rows": [
+        {
+          "product": "ProductA",
+          "q1_sales": 45000,
+          "q2_sales": 52000,
+          "q3_sales": 58000,
+          "q4_sales": 72000,
+          "region": "North",
+          "units_sold": 1200
+        },
+        {
+          "product": "ProductB",
+          "q1_sales": 32000,
+          "q2_sales": 35000,
+          "q3_sales": 31000,
+          "q4_sales": 28000,
+          "region": "South",
+          "units_sold": 850
+        },
+        {
+          "product": "ProductC",
+          "q1_sales": 78000,
+          "q2_sales": 82000,
+          "q3_sales": 89000,
+          "q4_sales": 95000,
+          "region": "East",
+          "units_sold": 2100
+        }
+      ]
+    },
+    "statistical_analysis": {
+      "title": "Statistical Analysis",
+      "statistics": {
+        "q1_sales": {
+          "count": 15,
+          "mean": 50200.0,
+          "std": 25120.282073029583,
+          "min": 12000.0,
+          "25%": 33000.0,
+          "median": 45000.0,
+          "75%": 70000.0,
+          "max": 92000.0,
+          "skewness": 0.24008493111719795,
+          "kurtosis": -1.0436925787842308
+        },
+        "q2_sales": {
+          "count": 15,
+          "mean": 52933.333333333336,
+          "std": 24285.406160510316,
+          "min": 15000.0,
+          "25%": 35500.0,
+          "median": 52000.0,
+          "75%": 70500.0,
+          "max": 96000.0,
+          "skewness": 0.20663500383348707,
+          "kurtosis": -0.9292650978138188
+        },
+        "q3_sales": {
+          "count": 15,
+          "mean": 54666.666666666664,
+          "std": 24581.254956533347,
+          "min": 18000.0,
+          "25%": 33500.0,
+          "median": 58000.0,
+          "75%": 71000.0,
+          "max": 101000.0,
+          "skewness": 0.3047399971615278,
+          "kurtosis": -0.795826828584528
+        },
+        "q4_sales": {
+          "count": 15,
+          "mean": 56933.333333333336,
+          "std": 25415.0311729852,
+          "min": 22000.0,
+          "25%": 35500.0,
+          "median": 58000.0,
+          "75%": 72000.0,
+          "max": 108000.0,
+          "skewness": 0.4781514235436835,
+          "kurtosis": -0.4716424761788085
+        },
+        "units_sold": {
+          "count": 15,
+          "mean": 1336.0,
+          "std": 595.2766463706482,
+          "min": 450.0,
+          "25%": 870.0,
+          "median": 1200.0,
+          "75%": 1775.0,
+          "max": 2400.0,
+          "skewness": 0.1964766036317061,
+          "kurtosis": -1.0947754349349035
+        }
+      },
+      "summary": "Detailed statistical breakdown of 5 numeric columns"
+    },
+    "trend_analysis": {
+      "title": "Trend Analysis",
+      "trends": {
+        "q1_sales": {
+          "direction": "decreasing",
+          "change_percentage": -15.555555555555555,
+          "start_value": 45000.0,
+          "end_value": 38000.0,
+          "min_value": 12000.0,
+          "max_value": 92000.0,
+          "avg_value": 50200.0
+        },
+        "q2_sales": {
+          "direction": "decreasing",
+          "change_percentage": -21.153846153846153,
+          "start_value": 52000.0,
+          "end_value": 41000.0,
+          "min_value": 15000.0,
+          "max_value": 96000.0,
+          "avg_value": 52933.333333333336
+        },
+        "q3_sales": {
+          "direction": "decreasing",
+          "change_percentage": -25.862068965517242,
+          "start_value": 58000.0,
+          "end_value": 43000.0,
+          "min_value": 18000.0,
+          "max_value": 101000.0,
+          "avg_value": 54666.666666666664
+        },
+        "q4_sales": {
+          "direction": "decreasing",
+          "change_percentage": -36.11111111111111,
+          "start_value": 72000.0,
+          "end_value": 46000.0,
+          "min_value": 22000.0,
+          "max_value": 108000.0,
+          "avg_value": 56933.333333333336
+        },
+        "units_sold": {
+          "direction": "decreasing",
+          "change_percentage": -12.5,
+          "start_value": 1200.0,
+          "end_value": 1050.0,
+          "min_value": 450.0,
+          "max_value": 2400.0,
+          "avg_value": 1336.0
+        }
+      },
+      "summary": "Identified trends across 5 key metrics"
+    },
+    "key_metrics": {
+      "title": "Key Performance Indicators (KPIs)",
+      "metrics": {
+        "q1_sales": {
+          "total": 753000.0,
+          "average": 50200.0,
+          "growth_rate": 52.72211049824266,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "q2_sales": {
+          "total": 794000.0,
+          "average": 52933.333333333336,
+          "growth_rate": 42.27999253617659,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "q3_sales": {
+          "total": 820000.0,
+          "average": 54666.666666666664,
+          "growth_rate": 39.45021455511669,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "q4_sales": {
+          "total": 854000.0,
+          "average": 56933.333333333336,
+          "growth_rate": 36.9695952921635,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "units_sold": {
+          "total": 20040.0,
+          "average": 1336.0,
+          "growth_rate": 40.19093476379287,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        }
+      }
+    },
+    "data_quality": {
+      "title": "Data Quality Report",
+      "total_cells": 105,
+      "missing_cells": 0,
+      "completeness": 100.0,
+      "status": "Excellent",
+      "duplicates": 0,
+      "issues": [
+        "Data quality is excellent"
+      ]
+    },
+    "insights": {
+      "title": "Key Insights",
+      "insights": [
+        "Highest performing metric: q4_sales with total of 854,000.00",
+        "Most volatile metric: q4_sales with std dev of 25,415.03",
+        "Dataset spans 15 records with an average value presence across 100.0% of cells",
+        "Average growth rate across metrics: 42.32%"
+      ],
+      "count": 4
+    },
+    "recommendations": {
+      "title": "Recommendations",
+      "recommendations": [
+        {
+          "priority": "Medium",
+          "area": "Monitoring",
+          "recommendation": "Establish continuous monitoring dashboard",
+          "action": "Track KPIs in real-time for proactive decision-making"
+        },
+        {
+          "priority": "Low",
+          "area": "Strategy",
+          "recommendation": "Expand analysis scope",
+          "action": "Include additional data dimensions for comprehensive insights"
+        }
+      ],
+      "count": 2
+    }
+  },
+  "chart_data": {
+    "title": "Quarterly Sales",
+    "labels": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "values": [
+      150000,
+      200000,
+      180000,
+      220000
+    ]
+  },
+  "analysis_result": {
+    "summary": "Quarterly sales trend analysis",
+    "success": true,
+    "chart_data": {
+      "title": "Quarterly Sales",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "values": [
+        150000,
+        200000,
+        180000,
+        220000
+      ]
+    }
+  }
+}

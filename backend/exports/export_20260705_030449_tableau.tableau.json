@@ -1,0 +1,33 @@
+{
+  "export_format": "csv_for_tableau",
+  "row_count": 1000,
+  "column_count": 11,
+  "columns": [
+    "Product ID",
+    "Product Name",
+    "Category",
+    "Supplier Name",
+    "Unit Cost",
+    "Retail Price",
+    "Opening Stock",
+    "Units Sold",
+    "Closing Stock",
+    "Reorder Point",
+    "Stock Status"
+  ],
+  "data_types": {
+    "Product ID": "str",
+    "Product Name": "str",
+    "Category": "str",
+    "Supplier Name": "str",
+    "Unit Cost": "float64",
+    "Retail Price": "float64",
+    "Opening Stock": "int64",
+    "Units Sold": "int64",
+    "Closing Stock": "int64",
+    "Reorder Point": "int64",
+    "Stock Status": "str"
+  },
+  "suggested_tableau_sheet": "Sheet1",
+  "instructions": "Import this CSV into Tableau as a new data source"
+}

@@ -1,0 +1,358 @@
+{
+  "timestamp": "20260705_034656",
+  "query": "",
+  "data_shape": {
+    "rows": 1000,
+    "columns": 11
+  },
+  "sections": {
+    "executive_summary": {
+      "title": "Executive Summary",
+      "query": "",
+      "data_shape": "1000 records, 11 fields",
+      "date_generated": "2026-07-05T03:46:56.396137",
+      "key_highlights": [
+        "Analyzed 1,000 data records",
+        "Dataset contains 11 dimensions",
+        "Identified 6 numeric metrics",
+        "Analysis covers 1000 time periods or entries"
+      ],
+      "top_metrics": {
+        "Unit Cost": {
+          "total": 16061.21,
+          "average": 16.06121,
+          "max": 78.79,
+          "min": 0.52
+        },
+        "Retail Price": {
+          "total": 27976.780000000002,
+          "average": 27.97678,
+          "max": 157.4,
+          "min": 1.07
+        },
+        "Opening Stock": {
+          "total": 262451.0,
+          "average": 262.451,
+          "max": 499.0,
+          "min": 20.0
+        },
+        "Units Sold": {
+          "total": 137040.0,
+          "average": 137.04,
+          "max": 463.0,
+          "min": 3.0
+        },
+        "Closing Stock": {
+          "total": 125411.0,
+          "average": 125.411,
+          "max": 432.0,
+          "min": 4.0
+        }
+      }
+    },
+    "data_overview": {
+      "title": "Data Overview",
+      "total_records": 1000,
+      "total_columns": 11,
+      "column_names": [
+        "Product ID",
+        "Product Name",
+        "Category",
+        "Supplier Name",
+        "Unit Cost",
+        "Retail Price",
+        "Opening Stock",
+        "Units Sold",
+        "Closing Stock",
+        "Reorder Point",
+        "Stock Status"
+      ],
+      "column_types": {
+        "Product ID": "str",
+        "Product Name": "str",
+        "Category": "str",
+        "Supplier Name": "str",
+        "Unit Cost": "float64",
+        "Retail Price": "float64",
+        "Opening Stock": "int64",
+        "Units Sold": "int64",
+        "Closing Stock": "int64",
+        "Reorder Point": "int64",
+        "Stock Status": "str"
+      },
+      "missing_values": {
+        "Product ID": 0,
+        "Product Name": 0,
+        "Category": 0,
+        "Supplier Name": 0,
+        "Unit Cost": 0,
+        "Retail Price": 0,
+        "Opening Stock": 0,
+        "Units Sold": 0,
+        "Closing Stock": 0,
+        "Reorder Point": 0,
+        "Stock Status": 0
+      },
+      "duplicate_rows": 0,
+      "memory_usage_mb": 0.1378946304321289,
+      "first_rows": [
+        {
+          "Product ID": "PRD-1001",
+          "Product Name": "Wine Glasses",
+          "Category": "Home & Kitchen",
+          "Supplier Name": "Heritage Brands",
+          "Unit Cost": 23.78,
+          "Retail Price": 38.89,
+          "Opening Stock": 135,
+          "Units Sold": 118,
+          "Closing Stock": 17,
+          "Reorder Point": 30,
+          "Stock Status": "Low Stock"
+        },
+        {
+          "Product ID": "PRD-1002",
+          "Product Name": "Eye Mask",
+          "Category": "Beauty",
+          "Supplier Name": "Coastal Trading",
+          "Unit Cost": 15.67,
+          "Retail Price": 24.53,
+          "Opening Stock": 86,
+          "Units Sold": 10,
+          "Closing Stock": 76,
+          "Reorder Point": 9,
+          "Stock Status": "In Stock"
+        },
+        {
+          "Product ID": "PRD-1003",
+          "Product Name": "Resistance Band",
+          "Category": "Sports & Outdoors",
+          "Supplier Name": "National Supply Group",
+          "Unit Cost": 5.59,
+          "Retail Price": 11.88,
+          "Opening Stock": 319,
+          "Units Sold": 195,
+          "Closing Stock": 124,
+          "Reorder Point": 47,
+          "Stock Status": "In Stock"
+        }
+      ]
+    },
+    "statistical_analysis": {
+      "title": "Statistical Analysis",
+      "statistics": {
+        "Unit Cost": {
+          "count": 1000,
+          "mean": 16.06121,
+          "std": 14.172094174439753,
+          "min": 0.52,
+          "25%": 7.035,
+          "median": 12.43,
+          "75%": 20.775,
+          "max": 78.79,
+          "skewness": 2.1853826765548416,
+          "kurtosis": 5.660214437096723
+        },
+        "Retail Price": {
+          "count": 1000,
+          "mean": 27.97678,
+          "std": 24.91506412699056,
+          "min": 1.07,
+          "25%": 11.9625,
+          "median": 21.759999999999998,
+          "75%": 35.3075,
+          "max": 157.4,
+          "skewness": 2.2928982563296785,
+          "kurtosis": 6.591656032590709
+        },
+        "Opening Stock": {
+          "count": 1000,
+          "mean": 262.451,
+          "std": 140.10445695215358,
+          "min": 20.0,
+          "25%": 141.75,
+          "median": 261.0,
+          "75%": 388.0,
+          "max": 499.0,
+          "skewness": -0.014886226369072771,
+          "kurtosis": -1.233471182774946
+        },
+        "Units Sold": {
+          "count": 1000,
+          "mean": 137.04,
+          "std": 103.62323182652706,
+          "min": 3.0,
+          "25%": 53.0,
+          "median": 108.5,
+          "75%": 204.0,
+          "max": 463.0,
+          "skewness": 0.8835156274996427,
+          "kurtosis": -0.04661157354167589
+        },
+        "Closing Stock": {
+          "count": 1000,
+          "mean": 125.411,
+          "std": 99.02352112875373,
+          "min": 4.0,
+          "25%": 44.0,
+          "median": 96.0,
+          "75%": 190.0,
+          "max": 432.0,
+          "skewness": 0.8651431650198164,
+          "kurtosis": -0.10321541494237962
+        },
+        "Reorder Point": {
+          "count": 1000,
+          "mean": 44.983,
+          "std": 27.544680437798153,
+          "min": 2.0,
+          "25%": 22.0,
+          "median": 41.0,
+          "75%": 64.25,
+          "max": 119.0,
+          "skewness": 0.4697672075394889,
+          "kurtosis": -0.6315643412130285
+        }
+      },
+      "summary": "Detailed statistical breakdown of 6 numeric columns"
+    },
+    "trend_analysis": {
+      "title": "Trend Analysis",
+      "trends": {
+        "Unit Cost": {
+          "direction": "decreasing",
+          "change_percentage": -89.15054667788058,
+          "start_value": 23.78,
+          "end_value": 2.58,
+          "min_value": 0.52,
+          "max_value": 78.79,
+          "avg_value": 16.06121
+        },
+        "Retail Price": {
+          "direction": "decreasing",
+          "change_percentage": -87.01465672409361,
+          "start_value": 38.89,
+          "end_value": 5.05,
+          "min_value": 1.07,
+          "max_value": 157.4,
+          "avg_value": 27.97678
+        },
+        "Opening Stock": {
+          "direction": "decreasing",
+          "change_percentage": -0.7407407407407408,
+          "start_value": 135.0,
+          "end_value": 134.0,
+          "min_value": 20.0,
+          "max_value": 499.0,
+          "avg_value": 262.451
+        },
+        "Units Sold": {
+          "direction": "decreasing",
+          "change_percentage": -33.89830508474576,
+          "start_value": 118.0,
+          "end_value": 78.0,
+          "min_value": 3.0,
+          "max_value": 463.0,
+          "avg_value": 137.04
+        },
+        "Closing Stock": {
+          "direction": "increasing",
+          "change_percentage": 229.41176470588235,
+          "start_value": 17.0,
+          "end_value": 56.0,
+          "min_value": 4.0,
+          "max_value": 432.0,
+          "avg_value": 125.411
+        }
+      },
+      "summary": "Identified trends across 5 key metrics"
+    },
+    "key_metrics": {
+      "title": "Key Performance Indicators (KPIs)",
+      "metrics": {
+        "Unit Cost": {
+          "total": 16061.21,
+          "average": 16.06121,
+          "growth_rate": 109.07597740624027,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "Retail Price": {
+          "total": 27976.780000000002,
+          "average": 27.97678,
+          "growth_rate": 111.19284198459272,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "Opening Stock": {
+          "total": 262451.0,
+          "average": 262.451,
+          "growth_rate": 73.80406007777194,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "Units Sold": {
+          "total": 137040.0,
+          "average": 137.04,
+          "growth_rate": 123.26727204189305,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "Closing Stock": {
+          "total": 125411.0,
+          "average": 125.411,
+          "growth_rate": 169.83935381296254,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        },
+        "Reorder Point": {
+          "total": 44983.0,
+          "average": 44.983,
+          "growth_rate": 98.8703457235917,
+          "status": "positive",
+          "icon": "\ud83d\udcc8"
+        }
+      }
+    },
+    "data_quality": {
+      "title": "Data Quality Report",
+      "total_cells": 11000,
+      "missing_cells": 0,
+      "completeness": 100.0,
+      "status": "Excellent",
+      "duplicates": 0,
+      "issues": [
+        "Data quality is excellent"
+      ]
+    },
+    "insights": {
+      "title": "Key Insights",
+      "insights": [
+        "Highest performing metric: Opening Stock with total of 262,451.00",
+        "Most volatile metric: Opening Stock with std dev of 140.10",
+        "Dataset spans 1000 records with an average value presence across 100.0% of cells",
+        "Average growth rate across metrics: 114.34%"
+      ],
+      "count": 4
+    },
+    "recommendations": {
+      "title": "Recommendations",
+      "recommendations": [
+        {
+          "priority": "Medium",
+          "area": "Monitoring",
+          "recommendation": "Establish continuous monitoring dashboard",
+          "action": "Track KPIs in real-time for proactive decision-making"
+        },
+        {
+          "priority": "Low",
+          "area": "Strategy",
+          "recommendation": "Expand analysis scope",
+          "action": "Include additional data dimensions for comprehensive insights"
+        }
+      ],
+      "count": 2
+    }
+  },
+  "chart_data": {},
+  "analysis_result": null
+}

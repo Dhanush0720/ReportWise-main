@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.terminal-log {
+  font-family: "Courier New", monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.terminal-line {
+  padding: 0.25rem 0;
+}
+
+.agent-manager {
+  color: #60a5fa;
+}
+
+.agent-developer {
+  color: #34d399;
+}
+
+.agent-qa {
+  color: #fbbf24;
+}
